@@ -1,0 +1,53 @@
+div {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div_input {
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* #121212 */
+
+p {
+    color: rgb(14, 14, 14);
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 100; */
+}
+
+
+/* 186 */
+
+.light {
+    color: rgb(27, 27, 27);
+}
+
+#emp {
+    background-color: #121212;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+input {
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    div {
+        width: 100%;
+        left: 0;
+    }
+}
